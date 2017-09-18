@@ -23,4 +23,5 @@ https://www.learnopencv.com/
 
 ### info pomůcky
 instalace ubuntu: https://www.learnopencv.com/install-opencv3-on-ubuntu/
+
 instalace skrz windows: http://docs.opencv.org/2.4/doc/tutorials/introduction/windows_install/windows_install.html
