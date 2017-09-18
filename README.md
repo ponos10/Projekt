@@ -22,8 +22,14 @@ moje užitečné odkazy: http://opencv.org/
 
 https://www.learnopencv.com/
 
+https://www.raspberrypi.org/downloads/raspbian/
+
 
 ### info pomůcky
+co budu potřebovat: Python/cLion, raspian
+
 instalace ubuntu: https://www.learnopencv.com/install-opencv3-on-ubuntu/
 
 instalace skrz windows: http://docs.opencv.org/2.4/doc/tutorials/introduction/windows_install/windows_install.html
+
+python codovani: https://gregtinkers.wordpress.com/2016/03/25/car-speed-detector/
