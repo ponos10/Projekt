@@ -17,6 +17,10 @@ OpenCv je open source software, který lze použít pro práci s videm nebo foto
   6. dokumentace
   
 ---
+### postup
+instalace na virtual box soubor pycharm develop.vdi pokud chceme pracovat s pythonem.
+
+
 ## odkazy
 moje užitečné odkazy: http://opencv.org/
 
