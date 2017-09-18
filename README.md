@@ -1,7 +1,8 @@
 # Projekt
 zavěrečný projekt
 ---
-OpenCv je open source software, jehož součásti nebo kopie jsou implementovány takřk
+## popis
+OpenCv je open source software, který lze použít pro práci s videm nebo fotografiemi za učelem rozpoznání předem určených tvarů. Krom těchto funkcí je možno při troše snahy dosáhnout i meření rychlosti.
 ---
 ## časový harmonogram
   1. seznámení se s projektem
@@ -19,5 +20,5 @@ https://www.learnopencv.com/
 
 
 ### info pomůcky
-instalace skrz c:
+instalace ubuntu: https://www.learnopencv.com/install-opencv3-on-ubuntu/
 instalace skrz python:
