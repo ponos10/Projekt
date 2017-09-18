@@ -24,7 +24,7 @@ https://www.learnopencv.com/
 
 https://www.raspberrypi.org/downloads/raspbian/
 
-
+---
 ### info pomůcky
 co budu potřebovat: Python/cLion, raspian
 
