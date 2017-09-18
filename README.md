@@ -14,6 +14,7 @@ OpenCv je open source software, jehož součásti nebo kopie jsou implementován
 ---
 ## odkazy
 moje užitečné odkazy: http://opencv.org/
+
 https://www.learnopencv.com/
 
 
