@@ -39,3 +39,6 @@ instalace skrz windows: http://docs.opencv.org/2.4/doc/tutorials/introduction/wi
 python codovani: https://gregtinkers.wordpress.com/2016/03/25/car-speed-detector/
 
 auto scan značka plate: https://github.com/openalpr/openalpr
+
+
+<h1>Měl bych se odhlašovat z GitHubu ve škole, jinak se mi to vymstí. -DangeR</h1>
