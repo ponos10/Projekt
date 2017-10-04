@@ -20,6 +20,8 @@ OpenCv je open source software, který lze použít pro práci s videm nebo foto
 ### postup
 instalace na virtual box soubor pycharm develop.vdi pokud chceme pracovat s pythonem.
 
+Momentálně snaha naučit haarp šablonu pro obličej.
+
 
 ## odkazy
 moje užitečné odkazy: http://opencv.org/
