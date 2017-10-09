@@ -21,6 +21,7 @@ OpenCv je open source software, který lze použít pro práci s videm nebo foto
 instalace na virtual box soubor pycharm develop.vdi pokud chceme pracovat s pythonem.
 
 Momentálně snaha naučit haarp šablonu pro obličej.
+Vytvoření xml pro rozpoznání obličejů
 
 
 ## odkazy
@@ -30,7 +31,7 @@ https://www.learnopencv.com/
 
 https://www.raspberrypi.org/downloads/raspbian/
 
-haarp trainer: https://github.com/mrnugget/opencv-haar-classifier-training
+haarp trainer: https://github.com/mrnugget/opencv-haar-classifier-training /xml
 
 ---
 ### info pomůcky
