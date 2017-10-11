@@ -23,6 +23,9 @@ instalace na virtual box soubor pycharm develop.vdi pokud chceme pracovat s pyth
 Momentálně snaha naučit haarp šablonu pro obličej.
 Vytvoření xml pro rozpoznání obličejů
 
+1:umístit kameru na místo
+2:vymezit mereny usek
+3:naprogramovani meridla
 
 ## odkazy
 moje užitečné odkazy: http://opencv.org/
