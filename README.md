@@ -35,8 +35,9 @@ https://www.learnopencv.com/
 https://www.raspberrypi.org/downloads/raspbian/
 
 haarp trainer: https://github.com/mrnugget/opencv-haar-classifier-training /xml
-
----
+  
+  
+--- 
 ### info pomůcky
 co budu potřebovat: Python/cLion, raspian
 
