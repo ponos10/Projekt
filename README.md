@@ -3,6 +3,9 @@ meření rychlosti
 
 http://www.amphioxus.org/content/real-time-speed-estimation-cars
 
+
+bitbucket pro rychlost:https://bitbucket.org/amphioxus/vehicletracker3
+
 ---
 ## popis
 OpenCv je open source software, který lze použít pro práci s videm nebo fotografiemi za učelem rozpoznání předem určených tvarů. Krom těchto funkcí je možno při troše snahy dosáhnout i meření rychlosti.
@@ -27,6 +30,8 @@ Vytvoření xml pro rozpoznání obličejů
 2:vymezit mereny usek
 3:naprogramovani meridla
 
+spustit program na linuxu - pouzitim xcode nebo swift
+
 ## odkazy
 moje užitečné odkazy: http://opencv.org/
 
@@ -48,6 +53,9 @@ instalace skrz windows: http://docs.opencv.org/2.4/doc/tutorials/introduction/wi
 python codovani: https://gregtinkers.wordpress.com/2016/03/25/car-speed-detector/
 
 auto scan značka plate: https://github.com/openalpr/openalpr
+
+cinder:https://libcinder.org/docs/index.html
+
 
 
 Měl bych se odhlašovat z GitHubu ve škole, jinak se mi to vymstí. -DangeR
