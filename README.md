@@ -50,4 +50,4 @@ python codovani: https://gregtinkers.wordpress.com/2016/03/25/car-speed-detector
 auto scan značka plate: https://github.com/openalpr/openalpr
 
 
-<h1>Měl bych se odhlašovat z GitHubu ve škole, jinak se mi to vymstí. -DangeR</h1>
+Měl bych se odhlašovat z GitHubu ve škole, jinak se mi to vymstí. -DangeR
