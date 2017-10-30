@@ -3,6 +3,8 @@ meření rychlosti
 
 http://www.amphioxus.org/content/real-time-speed-estimation-cars
 
+překladač XCODE: https://github.com/kronenthaler/mod-pbxproj
+
 
 bitbucket pro rychlost:https://bitbucket.org/amphioxus/vehicletracker3
 
