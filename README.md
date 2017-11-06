@@ -31,7 +31,7 @@ Momentálně snaha naučit haarp šablonu pro obličej.
 Vytvoření xml pro rozpoznání obličejů
 
 1:umístit kameru na místo
-2:vymezit mereny usek
+2:vymezit mereny useks
 3:naprogramovani meridla
 
 spustit program na linuxu - pouzitim xcode nebo swift
