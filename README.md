@@ -3,12 +3,12 @@ meření rychlosti
 
 snad bude fungovat:https://gregtinkers.wordpress.com/2016/03/25/car-speed-detector/
 
-http://www.amphioxus.org/content/real-time-speed-estimation-cars
+http://www.amphioxus.org/content/real-time-speed-estimation-cars #nutno vyvoje v mac os nebo konvertor a ten neni vytvoreny
 
-překladač XCODE: https://github.com/kronenthaler/mod-pbxproj
+překladač XCODE: https://github.com/kronenthaler/mod-pbxproj #noGO
 
 
-bitbucket pro rychlost:https://bitbucket.org/amphioxus/vehicletracker3
+bitbucket pro rychlost:https://bitbucket.org/amphioxus/vehicletracker3 #noGO
 
 ---
 ## popis
