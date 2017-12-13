@@ -1,6 +1,8 @@
 # Projekt
 meření rychlosti
 
+https://github.com/fablab-ka/labdo-python-video/blob/master/src/02_motion.py 13.12
+
 snad bude fungovat:https://gregtinkers.wordpress.com/2016/03/25/car-speed-detector/
 
 http://www.amphioxus.org/content/real-time-speed-estimation-cars #nutno vyvoje v mac os nebo konvertor a ten neni vytvoreny
