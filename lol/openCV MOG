@@ -20,10 +20,10 @@ while True:
         elif x>102 and x<110 and y>105 and y<130:
             i=i+1
             print(i)
-        cv2.putText(frame,'COUNT: %r' %i, (10,30), cv2.FONT_HERSHEY_SIMPLEX,
+        cv2.putText(frame,'POCET: %r' %i, (10,30), cv2.FONT_HERSHEY_SIMPLEX,
                         1, (255, 0, 0), 2)
-        cv2.imshow("Track", frame)
-        cv2.imshow("background sub", fgmask)
+        cv2.imshow("Cesta", frame)
+        cv2.imshow("subtrakce_pozadi", fgmask)
     key = cv2.waitKey(100)
     if key == ord('q'):
             break
