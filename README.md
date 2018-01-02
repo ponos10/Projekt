@@ -3,14 +3,9 @@ meření rychlosti
 
 https://github.com/fablab-ka/labdo-python-video/blob/master/src/02_motion.py 13.12
 
-snad bude fungovat:https://gregtinkers.wordpress.com/2016/03/25/car-speed-detector/
+https://docs.opencv.org/3.3.1/dd/d49/tutorial_py_contour_features.html contour tutorialek + Moments
 
-http://www.amphioxus.org/content/real-time-speed-estimation-cars #nutno vyvoje v mac os nebo konvertor a ten neni vytvoreny
-
-překladač XCODE: https://github.com/kronenthaler/mod-pbxproj #noGO
-
-
-bitbucket pro rychlost:https://bitbucket.org/amphioxus/vehicletracker3 #noGO
+https://medium.com/machine-learning-world/tutorial-making-road-traffic-counting-app-based-on-computer-vision-and-opencv-166937911660 MOG + motion tutorial
 
 ---
 ## popis
@@ -29,14 +24,9 @@ OpenCv je open source software, který lze použít pro práci s videm nebo foto
 ### postup
 instalace na virtual box soubor pycharm develop.vdi pokud chceme pracovat s pythonem.
 
-Momentálně snaha naučit haarp šablonu pro obličej.
-Vytvoření xml pro rozpoznání obličejů
+vytvořil jsem algoritmus pro snímání pomocí subtractoru
 
-1:umístit kameru na místo
-2:vymezit mereny useks
-3:naprogramovani meridla
-
-spustit program na linuxu - pouzitim xcode nebo swift
+potřeba upravit  a použít vyhlazovaci algoritmy pro čistější měření
 
 ## odkazy
 moje užitečné odkazy: http://opencv.org/
@@ -50,7 +40,7 @@ haarp trainer: https://github.com/mrnugget/opencv-haar-classifier-training /xml
   
 --- 
 ### info pomůcky
-co budu potřebovat: Python/cLion, raspian
+co budu potřebovat: Python
 
 instalace ubuntu: https://www.learnopencv.com/install-opencv3-on-ubuntu/
 
