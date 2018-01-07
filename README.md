@@ -1,3 +1,6 @@
+# POZNÁMKA!!!
+zítra nezapomenout na přidělání diletace nosino to by mělo zlepšit aspon rozpoznání.
+
 # Projekt
 meření rychlosti
 
