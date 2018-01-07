@@ -7,6 +7,8 @@ https://docs.opencv.org/3.3.1/dd/d49/tutorial_py_contour_features.html contour t
 
 https://medium.com/machine-learning-world/tutorial-making-road-traffic-counting-app-based-on-computer-vision-and-opencv-166937911660 MOG + motion tutorial
 
+https://pythonprogramming.net/mog-background-reduction-python-opencv-tutorial/ MOG vysvětlení
+
 ---
 ## popis
 OpenCv je open source software, který lze použít pro práci s videm nebo fotografiemi za učelem rozpoznání předem určených tvarů. Krom těchto funkcí je možno při troše snahy dosáhnout i meření rychlosti.
