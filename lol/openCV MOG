@@ -5,13 +5,15 @@ print(cv2.__version__)
 pozadi = cv2.createBackgroundSubtractorMOG2()
 
 capture = cv2.VideoCapture("video.avi")
+
 i = 0
 minArea=1
+
 while True:
     ret, frame = capture.read()
     fgmask = pozadi.apply(frame, None, 0.01)
-    erode=cv2.erode(fgmask,None,iterations=3)
-    moments=cv2.moments(erode,True)
+    erosion=cv2.erode(fgmask,None,iterations=3)
+    moments=cv2.moments(erosion,True)
     area=moments['m00']
     if moments['m00'] >=minArea:
         x=int(moments['m10']/moments['m00'])
@@ -22,10 +24,12 @@ while True:
         elif x>102 and x<110 and y>105 and y<130:
             i=i+1
             print(i)
+            
         cv2.putText(frame,'POCET: %r' %i, (10,30), cv2.FONT_HERSHEY_SIMPLEX,
                         1, (255, 0, 0), 2)
         cv2.imshow("Cesta", frame)
         cv2.imshow("subtrakce_pozadi", fgmask)
+        
     key = cv2.waitKey(100)
     if key == ord('q'):
             break
