@@ -1,5 +1,5 @@
 # POZNÁMKA!!!
-zítra nezapomenout na přidělání diletace nosino to by mělo zlepšit aspon rozpoznání.
+zítra nezapomenout na přidělání diletace nosino to by mělo zlepšit aspon rozpoznání. + zkusit změnit MOG na verzi 1 možná kolize z erode u 2 nvm
 
 # Projekt
 meření rychlosti
