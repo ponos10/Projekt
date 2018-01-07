@@ -1,5 +1,7 @@
 import cv2
 
+print(cv2.__version__)
+
 pozadi = cv2.createBackgroundSubtractorMOG2()
 
 capture = cv2.VideoCapture("video.avi")
