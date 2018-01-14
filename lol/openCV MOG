@@ -1,34 +1,34 @@
 import cv2
+import numpy as np
 
-print(cv2.__version__)
+pozadi = cv2.createBackgroundSubtractorMOG2() #vytvorime subtractor
 
-pozadi = cv2.createBackgroundSubtractorMOG2()
-
-capture = cv2.VideoCapture("video.avi")
+capture = cv2.VideoCapture("silnice.mp4") #video ktere chci sledovat popr. stream nebo kameru v pocitaci
 
 i = 0
 minArea=1
 
-while True:
-    ret, frame = capture.read()
-    fgmask = pozadi.apply(frame, None, 0.01)
-    erosion=cv2.erode(fgmask,None,iterations=3)
-    moments=cv2.moments(erosion,True)
-    area=moments['m00']
+while True: #pokud ret vraci true jedeme pres while
+    ret, frame = capture.read() #zacneme cist video
+    fgmask = pozadi.apply(frame, None, 0.01) #zapneme masku pozadi
+    #kernel=np.ones((5,5),np.uint8) nepotrebujeme pokud nepouyivame metodu opening
+    erode=cv2.erode(fgmask,None,iterations=3) #odstraneni sumu
+    #opening=cv2.morphologyEx(fgmask,cv2.MORPH_OPEN,kernel) zhorsuje pocitani aut
+    moments=cv2.moments(erode,True) #zapneme momenty
+    area=moments['m00'] #nastavujeme abychom nemerili i male objekty a sum
     if moments['m00'] >=minArea:
-        x=int(moments['m10']/moments['m00'])
-        y=int (moments['m01']/moments['m00'])
-        if x>40 and x<55 and y>50 and y<65:
+        x=int(moments['m10']/moments['m00']) #osa x pro centroid
+        y=int (moments['m01']/moments['m00']) #osa y
+        if x>200 and x<240 and y>320 and y<360: #oblast ve ktere verime
             i=i+1
             print(i)
-        elif x>102 and x<110 and y>105 and y<130:
-            i=i+1
-            print(i)
+        #elif x>102 and x<110 and y>105 and y<130: druhy pruh - vypl jsem ho protoze jsem zkousel ruzna videa
+            #i=i+1
+            #print(i)
             
-        cv2.putText(frame,'POCET: %r' %i, (10,30), cv2.FONT_HERSHEY_SIMPLEX,
-                        1, (255, 0, 0), 2)
-        cv2.imshow("Cesta", frame)
-        cv2.imshow("subtrakce_pozadi", fgmask)
+        cv2.putText(frame,'POCET: %r' %i, (10,30), cv2.FONT_HERSHEY_SIMPLEX,1, (255, 255, 255), 1) #vypis poctu
+        cv2.imshow("Cesta", frame) #okno ve kterem je video
+        cv2.imshow("subtrakce_pozadi", fgmask) # okno s maskou pozadi
         
     key = cv2.waitKey(100)
     if key == ord('q'):
